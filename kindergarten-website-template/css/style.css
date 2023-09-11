@@ -82,6 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-size: 20px;
 }
 
 abbr[title],
@@ -191,17 +192,31 @@ figure {
   margin: 0 0 1rem;
 }
 
-img {
+img{
   vertical-align: middle;
   border-style: none;
-  height: 70%;
-  width: 70%;
+  height: 80%;
+  width: 80%;
+
+ 
 }
 #img_logo{
   vertical-align: middle;
  
   height: 100px;
   width: 100px;
+}
+#img_center{
+
+  vertical-align: middle;
+  border-style: none;
+  height: 90%;
+  width: 90%;
+  margin-right: 40%;
+}
+#img_niño{
+  height: 90%;
+  width: 90%;
 }
 
 svg {
@@ -378,6 +393,10 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
   font-size: 2.5rem;
+
+}
+#titulo{
+  font-size: 90px;
 }
 
 @media (max-width: 1200px) {
