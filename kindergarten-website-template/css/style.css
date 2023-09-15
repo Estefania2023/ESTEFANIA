@@ -634,6 +634,10 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+.google-maps{
+  width: 448%;
+  right: 400%;
+}
 
 @media (min-width: 576px) {
   .container, .container-sm {
